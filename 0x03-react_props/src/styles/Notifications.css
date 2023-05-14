@@ -1,0 +1,15 @@
+.Notifications {
+    border: medium dotted red;
+    padding: 10px;
+    /* max-width: fit-content; */
+    position: relative;
+}
+
+.Notifications ul li[data-priority="default"] {
+    color: blue;
+}
+
+.Notifications ul li[data-priority="urgent"] {
+    color: red;
+}
+
